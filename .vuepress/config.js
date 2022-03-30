@@ -9,8 +9,8 @@ module.exports = {
   theme: 'reco',
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/', icon: 'reco-home' },
-      { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
+      { text: '首页', link: '/', icon: 'reco-home' },
+      { text: '时间线', link: '/timeline/', icon: 'reco-date' },
       { text: 'Docs', 
         icon: 'reco-message',
         items: [
@@ -29,7 +29,8 @@ module.exports = {
         '',
         'theme',
         'plugin',
-        'api'
+        'api',
+        'Vuepress-vercel'
       ]
     },  
     type: 'blog',
