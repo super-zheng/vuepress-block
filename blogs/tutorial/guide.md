@@ -1,6 +1,8 @@
 ---
 title: vuepress-theme-reco
 date: 2019-04-09
+categories:
+ -  教程
 ---
 
 ![vuepress](https://img.shields.io/badge/vuepress-0.14.8-brightgreen.svg)

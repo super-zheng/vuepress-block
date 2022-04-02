@@ -1,11 +1,14 @@
 ---
 title: Vuepress+vercel搭建个人博客
 date: 2022-03-20
-isTimeLine: true
-sidebar: false
-isComment: false
+author: huo
+sidebar: 'auto'
+sticky:
+- description
 tags:
 - vuepress
+- 教程
+categories:
 - 教程
 ---
 

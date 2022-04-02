@@ -1,5 +1,5 @@
 module.exports = {
-  title: "vuepress-theme-reco",
+  title: "huo",
   description: 'A simple and beautiful vuepress blog theme .',
   dest: 'public',
   head: [
@@ -8,10 +8,11 @@ module.exports = {
   ],
   theme: 'reco',
   themeConfig: {
+    huawei: true,
     nav: [
       { text: '首页', link: '/', icon: 'reco-home' },
       { text: '时间线', link: '/timeline/', icon: 'reco-date' },
-      { text: 'Docs', 
+      { text: '文档', 
         icon: 'reco-message',
         items: [
           { text: 'vuepress-reco', link: '/docs/theme-reco/' }
@@ -29,8 +30,7 @@ module.exports = {
         '',
         'theme',
         'plugin',
-        'api',
-        'Vuepress-vercel'
+        'api'
       ]
     },  
     type: 'blog',
@@ -38,13 +38,17 @@ module.exports = {
     blogConfig: {
       category: {
         location: 2, // 在导航栏菜单中所占的位置，默认2
-        text: 'Category' // 默认 “分类”
+        text: '分类' // 默认 “分类”
       },
       tag: {
         location: 3, // 在导航栏菜单中所占的位置，默认3
-        text: 'Tag' // 默认 “标签”
+        text: '标签' // 默认 “标签”
       }
     },
+    socialLinks: [     // 信息栏展示社交信息
+        { icon: 'reco-github', link: 'https://github.com/recoluan' },
+        { icon: 'reco-npm', link: 'https://www.npmjs.com/~reco_luan' }
+      ],
     friendLink: [
       {
         title: '午后南杂',
@@ -68,7 +72,7 @@ module.exports = {
     // 最后更新时间
     lastUpdated: 'Last Updated',
     // 作者
-    author: 'reco_luan',
+    author: 'huo',
     // 作者头像
     authorAvatar: '/avatar.png',
     // 备案号

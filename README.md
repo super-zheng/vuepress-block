@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: vuepress-theme-reco
-tagline: A simple and beautiful vuepress blog theme.
+heroText: huo
+tagline: 真正的大师永远怀着一个学徒的心
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
