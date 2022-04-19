@@ -2,6 +2,7 @@ module.exports = {
   title: "huo",
   description: 'A simple and beautiful vuepress blog theme .',
   dest: 'public',
+  plugins: [['vuepress-plugin-code-copy', true]],
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
@@ -28,9 +29,7 @@ module.exports = {
     sidebar: {
       '/docs/theme-reco/': [
         '',
-        'theme',
-        'plugin',
-        'api'
+        'fusionDoc'
       ]
     },  
     type: 'blog',
