@@ -16,7 +16,8 @@ module.exports = {
       { text: '文档', 
         icon: 'reco-message',
         items: [
-          { text: 'vuepress-reco', link: '/docs/theme-reco/' }
+          { text: 'vuepress-reco', link: '/docs/theme-reco/' },
+          { text: 'fussion', link: '/docs/common-reco/' }
         ]
       },
       { text: 'Contact', 
@@ -30,6 +31,9 @@ module.exports = {
       '/docs/theme-reco/': [
         '',
         'fusionDoc'
+      ],
+      '/docs/common-reco/': [
+        ''
       ]
     },  
     type: 'blog',
