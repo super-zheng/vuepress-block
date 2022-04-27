@@ -2,8 +2,11 @@
 title: fussion 公共方法
 date: 2022-04-25
 sidebar: 'auto'
+keys:
+- e10adc3949ba59abbe56e057f20f883e
 tags:
 - 文档
+- fussion
 ---
 
 # 公共方法

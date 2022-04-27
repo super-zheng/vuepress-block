@@ -10,6 +10,7 @@ module.exports = {
   theme: 'reco',
   themeConfig: {
     huawei: true,
+    subSidebar: 'auto',//在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
     nav: [
       { text: '首页', link: '/', icon: 'reco-home' },
       { text: '时间线', link: '/timeline/', icon: 'reco-date' },
@@ -81,13 +82,13 @@ module.exports = {
     // 备案号
     record: 'xxxx',
     // 项目开始时间
-    startYear: '2017'
+    startYear: '2017',
     /**
      * 密钥 (if your blog is private)
      */
 
     // keyPage: {
-    //   keys: ['your password'],
+    //   keys: ['e10adc3949ba59abbe56e057f20f883e'],
     //   color: '#42b983',
     //   lineColor: '#42b983'
     // },
