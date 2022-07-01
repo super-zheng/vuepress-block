@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: huo
-tagline: 真正的大师永远怀着一个学徒的心
+tagline: The true master always has the heart of an apprentice
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
